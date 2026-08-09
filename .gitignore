@@ -1,0 +1,17 @@
+# Keep local artifacts and private operational data out of the showcase.
+.env
+.env.*
+*.csv
+*.json
+*.jsonl
+*.xlsx
+*.xls
+*.db
+*.sqlite*
+Output/
+output/
+data/
+secrets/
+.venv/
+__pycache__/
+
